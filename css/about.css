@@ -1,0 +1,12 @@
+body {
+    background: #eeeeee;
+}
+
+h1, h1>a:hover, h1>a:visited, h1>a:link, h1>a:active {
+    color: #121212;
+}
+
+h2 {
+    color: #121212;
+}
+

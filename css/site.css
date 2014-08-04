@@ -1,0 +1,76 @@
+#centering-outer {
+    width: 100%;
+    text-align: center;
+}
+
+#centering-inner {
+    display: inline-block;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+}
+
+h1>a:hover, h1>a:visited, h1>a:link, h1>a:active {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Lora", serif;
+    font-style: italic;
+    letter-spacing: 0.1em;
+}
+
+.img-tript-table {
+    display: table;
+    width: 400px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.img-tript-row {
+    display: table-row;
+}
+
+.img-tript-outer {
+    display: table-cell;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.img-tript-inner {
+    display: table-cell;
+    width: 300px;
+}
+
+.img-tript-nav-left {
+    background: url(../img/nav/left@2x.png) no-repeat 15px 5px;
+    background-size: 16px 16px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.5;
+    display: block;
+    margin: auto;
+}
+
+.img-tript-nav-right {
+    background: url(../img/nav/right@2x.png) no-repeat 5px 5px;
+    background-size: 16px 16px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.5;
+    display: block;
+    margin: auto;
+}
+
+.img-tript-nav-right:hover, .img-tript-nav-left:hover {
+    opacity: 1;
+}
+
+#player-container {
+    display: block;
+    margin-top: 40px;
+}
+
