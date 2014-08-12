@@ -10,3 +10,9 @@ h2 {
     color: #121212;
 }
 
+
+p {
+    font-family: "Cutive Mono", monospace;
+    letter-spacing: 0.0em;
+    padding-bottom: 20px;
+}

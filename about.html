@@ -4,19 +4,19 @@
 
     <!-- jQuery -->
     <script src="js/jquery-1.11.1.min.js"></script>
-    
+
     <!-- My own js -->
     <script src="js/lib.js"></script>
 
     <!-- init js -->
     <script>
-      
+
       // random links
       $(document).ready(function() {
         var num = getRandomExcept([]);
         $("#continue-link").attr("href", num + ".html");
       });
-      
+
       // fade in effect
       $(document).ready(function(){$("body").hide().fadeIn(1000).delay(3000);});
 
@@ -29,20 +29,38 @@
     <!-- Fonts from google -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,400italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" type="text/css">
   </head>
-  
+
   <body>
     <div id="centering-outer">
       <div id="centering-inner">
 
 	<!-- Headlines -->
-        <h1><a href="about.html">HIP HONK & VISUAL ARTISTS</a></h1>
-	<h2>What's all this?</h2>
+        <h1><a href="#" id="continue-link">HIP HONK & VISUAL ARTISTS</a></h1>
+        <div id="text">
+	  <h2>What's all this?</h2>
+          <p>
+            This project pairs musical creations by Henrik Lafrenz with visual creations by friendly artists. One song is paired with one work of art. At the outset of the project there are eight pairs, but the collection is meant to grow over time. The artists were given very few parameters to work with, and most of them ignored even these.
+          </p>
 
-	<p>
-	  <a href="#" id="continue-link">Continue</a>
-	</p>
+          <h2>Usage instructions</h2>
+          <p>
+            Pick a random pair. You can see the artwork in a preview. You can also see how long the track is. If you are ready for the full-blown experience, click the little audio player at the bottom of the page. The music will start. Click on the artwork to get a bigger version. Now you can focus on something for a few minutes - on the internet! Listen to the music and look at the artwork. Think about what the artists are trying to tell you. Think about the meaning of life.
+          </p>
+
+          <h2>What else is there?</h2>
+          <p>
+            You can listen to more music by Henrik Lafrenz <a href="http://soundcloud.com/lost-horse" target="_blank">on Soundlcoud</a>.
+          </p>
+        </div>
       </div>
     </div>
+
+    <!-- Clicky web analytics -->
+    <script src="//static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100762022); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100762022ns.gif" /></p></noscript>
+
   </body>
 </html>
