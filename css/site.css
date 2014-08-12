@@ -24,6 +24,12 @@ h2 {
     margin-top: 5px;
 }
 
+#text {
+    width: 600px;
+    text-align: justify;
+    display: inline-block;
+}
+
 .img-tript-table {
     display: table;
     width: 400px;
