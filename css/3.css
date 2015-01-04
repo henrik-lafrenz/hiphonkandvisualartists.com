@@ -1,0 +1,23 @@
+body {
+    background: #bf865b;
+}
+
+h1, h1>a:hover, h1>a:visited, h1>a:link, h1>a:active {
+    color: #dac4b4;
+}
+
+h2, h2>a:hover, h2>a:visited, h2>a:link, h2>a:active {
+    color: #ffffff;
+}
+
+.nivo-lightbox-theme-default.nivo-lightbox-overlay {
+    background: #573d29;
+}
+
+.img-tript-table {
+    width: 505px;
+}
+
+.img-tript-inner {
+    width: 405px;
+}
