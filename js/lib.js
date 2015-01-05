@@ -6,7 +6,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-var num_tracks = 4;
+var num_tracks = 5;
 
 function getRandomExcept(blacklist) {
     while (true) {
