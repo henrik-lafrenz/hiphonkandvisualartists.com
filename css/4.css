@@ -13,3 +13,7 @@ h2 {
 .nivo-lightbox-theme-default.nivo-lightbox-overlay {
     background: #636463;
 }
+
+.img-tript-nav-left, .img-tript-nav-right {
+    opacity: 0.8;
+}
