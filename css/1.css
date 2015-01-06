@@ -1,5 +1,5 @@
 body {
-    background: #41607d;
+    background: #8e9d88;
 }
 
 h1, h1>a:hover, h1>a:visited, h1>a:link, h1>a:active {
@@ -11,5 +11,5 @@ h2, h2>a:hover, h2>a:visited, h2>a:link, h2>a:active {
 }
 
 .nivo-lightbox-theme-default.nivo-lightbox-overlay {
-    background: #223242;
+    background: #3e473a;
 }
