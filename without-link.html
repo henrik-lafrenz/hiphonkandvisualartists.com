@@ -30,9 +30,9 @@
 
       // random links
       $(document).ready(function() {
-        var right = getRandomExcept([2]);
+        var right = getRandomExcept([[tbd]]);
         $("#nav-right-link").attr("href", right + ".html");
-        var left = getRandomExcept([2, right]);
+        var left = getRandomExcept([[tbd], right]);
         $("#nav-left-link").attr("href", left + ".html");
       });
 
