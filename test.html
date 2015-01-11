@@ -2,6 +2,10 @@
   <head>
     <title>Hip Honk &amp; Visual Artists</title>
 
+    <!-- decide whether or not retina images should be served -->
+    <script>(function(w){var dpr=((w.devicePixelRatio===undefined)?1:w.devicePixelRatio);if(!!w.navigator.standalone){var r=new XMLHttpRequest();r.open('GET','/retinaimages.php?devicePixelRatio='+dpr,false);r.send()}else{document.cookie='devicePixelRatio='+dpr+'; path=/'}})(window)</script>
+    <noscript><style id="devicePixelRatio" media="only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)">html{background-image:url("/retinaimages.php?devicePixelRatio=2")}</style></noscript>
+
     <!-- Open graph meta tags -->
     <meta property="og:title" content="[tbd] ([tbd]) by Hip Honk &middot; [tbd] by [tbd]" />
     <meta property="og:type" content="website" />
@@ -68,7 +72,7 @@
 	    </div>
 	    <div class="img-tript-inner">
 	      <a href="img/va/test.jpg" data-lightbox-hidpi="img/va/test@2x.jpg">
-		<img src="img/va/th/test@2x.jpg" width="300" height="300"></img>
+		<img src="img/va/th/test.jpg" width="300" height="300"></img>
 	      </a>
 	    </div>
 	    <div class="img-tript-outer">
