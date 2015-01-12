@@ -32,12 +32,10 @@
         $('a').nivoLightbox();
       });
 
-      // random links
+      // links
       $(document).ready(function() {
-        var right = getRandomExcept([6]);
-        $("#nav-right-link").attr("href", right + ".html");
-        var left = getRandomExcept([6, right]);
-        $("#nav-left-link").attr("href", left + ".html");
+        $("#nav-right-link").attr("href", "5.html");
+        $("#nav-left-link").attr("href", "7.html");
       });
 
       // fade in effect
