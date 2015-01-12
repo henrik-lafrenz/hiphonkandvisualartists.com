@@ -17,11 +17,15 @@ h2 {
 .img-tript-nav-left {
     background: url(../img/nav/left_dark@2x.png) no-repeat 5px 5px;
     background-size: 16px 16px;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .img-tript-nav-right {
     background: url(../img/nav/right_dark@2x.png) no-repeat 5px 5px;
     background-size: 16px 16px;
-    opacity: 0.5;
+    opacity: 0.3;
+}
+
+.img-tript-nav-right:hover, .img-tript-nav-left:hover {
+    opacity: 0.8;
 }
