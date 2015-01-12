@@ -32,12 +32,10 @@
         $('a').nivoLightbox();
       });
 
-      // random links
+      // links
       $(document).ready(function() {
-        var right = getRandomExcept([0]);
-        $("#nav-right-link").attr("href", right + ".html");
-        var left = getRandomExcept([0, right]);
-        $("#nav-left-link").attr("href", left + ".html");
+        $("#nav-right-link").attr("href", "7.html");
+        $("#nav-left-link").attr("href", "1.html");
       });
 
       // fade in effect
@@ -59,7 +57,7 @@
       <div id="centering-inner">
 
 	<!-- Headline -->
-        <h1><a href="about.html">HIP HONK & VISUAL ARTISTS<a></h1>
+        <h1 class="proj-head"><a href="about.html">HIP HONK & VISUAL ARTISTS<a></h1>
 	<h2>Gang Jump (3:08) &middot; Painting by <a href="http://soundcloud.com/marie-la-reine" target="_blank">Geertje K&ouml;nig</a></h2>
 
 	<!-- Image triptychon with lightbox link in the middle -->
@@ -71,6 +69,7 @@
 	      </a>
 	    </div>
 	    <div class="img-tript-inner">
+              <!-- Note: hidpi version would also be handled by retina-images (w/o "@2x") -->
 	      <a href="img/va/gang-jump.jpg" data-lightbox-hidpi="img/va/gang-jump@2x.jpg">
 		<img src="img/va/th/gang-jump.jpg" width="300" height="300"></img>
 	      </a>

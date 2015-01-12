@@ -32,12 +32,10 @@
         $('a').nivoLightbox();
       });
 
-      // random links
+      // links
       $(document).ready(function() {
-        var right = getRandomExcept([7]);
-        $("#nav-right-link").attr("href", right + ".html");
-        var left = getRandomExcept([7, right]);
-        $("#nav-left-link").attr("href", left + ".html");
+        $("#nav-right-link").attr("href", "6.html");
+        $("#nav-left-link").attr("href", "0.html");
       });
 
       // fade in effect
@@ -59,7 +57,7 @@
       <div id="centering-inner">
 
 	<!-- Headline -->
-        <h1><a href="about.html">HIP HONK & VISUAL ARTISTS</a></h1>
+        <h1 class="proj-head"><a href="about.html">HIP HONK & VISUAL ARTISTS</a></h1>
 	<h2>Circus 2013/14 (5:05) &middot; Drawing &quot;Gerry&quot; by Stefanie Ressin</h2>
 
 	<!-- Image triptychon with lightbox link in the middle -->
@@ -71,6 +69,7 @@
 	      </a>
 	    </div>
 	    <div class="img-tript-inner">
+              <!-- Note: hidpi version would also be handled by retina-images (w/o "@2x") -->
 	      <a href="img/va/gerry-circus-2013-14.jpg" data-lightbox-hidpi="img/va/gerry-circus-2013-14@2x.jpg">
 		<img src="img/va/th/gerry-circus-2013-14.jpg" width="400" height="300"></img>
 	      </a>

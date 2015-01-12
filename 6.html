@@ -32,12 +32,10 @@
         $('a').nivoLightbox();
       });
 
-      // random links
+      // links
       $(document).ready(function() {
-        var right = getRandomExcept([6]);
-        $("#nav-right-link").attr("href", right + ".html");
-        var left = getRandomExcept([6, right]);
-        $("#nav-left-link").attr("href", left + ".html");
+        $("#nav-right-link").attr("href", "5.html");
+        $("#nav-left-link").attr("href", "7.html");
       });
 
       // fade in effect
@@ -59,7 +57,7 @@
       <div id="centering-inner">
 
 	<!-- Headlines -->
-        <h1><a href="about.html">HIP HONK & VISUAL ARTISTS<a></h1>
+        <h1 class="proj-head"><a href="about.html">HIP HONK & VISUAL ARTISTS<a></h1>
 	<h2>Boogie Bonk (2:34) &middot; Collage by <a href="http://stefaniegrau.com/" target="_blank">Stefanie Grau</a></h2>
 
 	<!-- Image triptychon with lightbox link in the middle -->
@@ -71,6 +69,7 @@
 	      </a>
 	    </div>
 	    <div class="img-tript-inner">
+              <!-- Note: hidpi version would also be handled by retina-images (w/o "@2x") -->
 	      <a href="img/va/boogie-bonk.jpg" data-lightbox-hidpi="img/va/boogie-bonk@2x.jpg">
 		<img src="img/va/th/boogie-bonk.jpg" width="424" height="300"></img>
 	      </a>

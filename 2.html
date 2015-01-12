@@ -32,12 +32,10 @@
         $('a').nivoLightbox();
       });
 
-      // random links
+      // links
       $(document).ready(function() {
-        var right = getRandomExcept([2]);
-        $("#nav-right-link").attr("href", right + ".html");
-        var left = getRandomExcept([2, right]);
-        $("#nav-left-link").attr("href", left + ".html");
+        $("#nav-right-link").attr("href", "1.html");
+        $("#nav-left-link").attr("href", "3.html");
       });
 
       // fade in effect
@@ -59,7 +57,7 @@
       <div id="centering-inner">
 
 	<!-- Headline -->
-        <h1><a href="about.html">HIP HONK & VISUAL ARTISTS</a></h1>
+        <h1 class="proj-head"><a href="about.html">HIP HONK & VISUAL ARTISTS</a></h1>
 	<h2>I'll Remember Funky (1:10) &middot; Photo collage by Marianna Andrly</h2>
 
 	<!-- Image triptychon with lightbox link in the middle -->
@@ -71,6 +69,7 @@
 	      </a>
 	    </div>
 	    <div class="img-tript-inner">
+              <!-- Note: hidpi version would also be handled by retina-images (w/o "@2x") -->
 	      <a href="img/va/i-will-remember-funky.jpg" data-lightbox-hidpi="img/va/i-will-remember-funky@2x.jpg">
 		<img src="img/va/th/i-will-remember-funky.jpg" width="416" height="300"></img>
 	      </a>

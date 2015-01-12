@@ -32,12 +32,10 @@
         $('a').nivoLightbox();
       });
 
-      // random links
+      // links
       $(document).ready(function() {
-        var right = getRandomExcept([3]);
-        $("#nav-right-link").attr("href", right + ".html");
-        var left = getRandomExcept([3, right]);
-        $("#nav-left-link").attr("href", left + ".html");
+        $("#nav-right-link").attr("href", "2.html");
+        $("#nav-left-link").attr("href", "4.html");
       });
 
       // fade in effect
@@ -59,7 +57,7 @@
       <div id="centering-inner">
 
 	<!-- Headlines -->
-        <h1><a href="about.html">HIP HONK & VISUAL ARTISTS<a></h1>
+        <h1 class="proj-head"><a href="about.html">HIP HONK & VISUAL ARTISTS<a></h1>
 	<h2>Braucht Kein Mensch Revisited (4:07) &middot; Drawing by <a href="http://www.richard-universum.de" target="_blank">Richard von der Schulenburg</a></h2>
 
 	<!-- Image triptychon with lightbox link in the middle -->
@@ -71,8 +69,9 @@
 	      </a>
 	    </div>
 	    <div class="img-tript-inner">
+              <!-- Note: hidpi version would also be handled by retina-images (w/o "@2x") -->
 	      <a href="img/va/bkm-revisited.jpg" data-lightbox-hidpi="img/va/bkm-revisited@2x.jpg">
-		<img src="img/va/th/bkm-revisited@jpg" width="405" height="300"></img>
+		<img src="img/va/th/bkm-revisited.jpg" width="405" height="300"></img>
 	      </a>
 	    </div>
 	    <div class="img-tript-outer">

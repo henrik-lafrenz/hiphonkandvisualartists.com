@@ -32,12 +32,10 @@
         $('a').nivoLightbox();
       });
 
-      // random links
+      // links
       $(document).ready(function() {
-        var right = getRandomExcept([1]);
-        $("#nav-right-link").attr("href", right + ".html");
-        var left = getRandomExcept([1, right]);
-        $("#nav-left-link").attr("href", left + ".html");
+        $("#nav-right-link").attr("href", "0.html");
+        $("#nav-left-link").attr("href", "2.html");
       });
 
       // fade in effect
@@ -59,7 +57,7 @@
       <div id="centering-inner">
 
 	<!-- Headline -->
-        <h1><a href="about.html">HIP HONK & VISUAL ARTISTS</a></h1>
+        <h1 class="proj-head"><a href="about.html">HIP HONK & VISUAL ARTISTS</a></h1>
 	<h2>De Boo, See? (2:06) &middot; Painting by <a href="http://www.linewasner.de" target="_blank">Line Wasner</a></h2>
 
 	<!-- Image triptychon with lightbox link in the middle -->
@@ -71,6 +69,7 @@
 	      </a>
 	    </div>
 	    <div class="img-tript-inner">
+              <!-- Note: hidpi version would also be handled by retina-images (w/o "@2x") -->
 	      <a href="img/va/de-boo-see.jpg" data-lightbox-hidpi="img/va/de-boo-see@2x.jpg">
 		<img src="img/va/th/de-boo-see.jpg" width="300" height="300"></img>
 	      </a>
