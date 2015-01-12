@@ -17,6 +17,6 @@ p {
     padding-bottom: 20px;
 }
 
-p {
+p, p>a:hover, p>a:visited, p>a:link, p>a:active {
     color: #121212;
 }
