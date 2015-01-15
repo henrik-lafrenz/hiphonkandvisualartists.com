@@ -10,8 +10,8 @@
 
     <script>
       function random_redirect(){
-        var choice = getRandomExcept([]);
-        window.location.href = choice + ".html";
+        var pageId = getRandomPageId();
+        window.location.href = pageId + ".html";
       }
       random_redirect();
     </script>
