@@ -13,8 +13,8 @@
 
       // random links
       $(document).ready(function() {
-        var num = getRandomExcept([]);
-        $("#continue-link").attr("href", num + ".html");
+        var pageId = getRandomPageId();
+        $("#continue-link").attr("href", pageId + ".html");
       });
 
       // fade in effect
