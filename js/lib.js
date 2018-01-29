@@ -33,4 +33,5 @@ var page_ids = [
     "a947c66", // Boogie Bonk
     "dfad4d5", // Circus 2013/14
     "bbc33b2", // Bottom Bump
+    "7e8e4d4", // Cheo Leo
 ]
