@@ -34,4 +34,5 @@ var page_ids = [
     "dfad4d5", // Circus 2013/14
     "bbc33b2", // Bottom Bump
     "7e8e4d4", // Cheo Leo
+    "51b8c51", // Beau Ti Fool
 ]
