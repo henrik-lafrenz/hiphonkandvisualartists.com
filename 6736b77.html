@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>Hip Honk &amp; Visual Artists</title>
+
+    <!-- decide whether or not retina images should be served -->
+    <script>(function(w){var dpr=((w.devicePixelRatio===undefined)?1:w.devicePixelRatio);if(!!w.navigator.standalone){var r=new XMLHttpRequest();r.open('GET','/retinaimages.php?devicePixelRatio='+dpr,false);r.send()}else{document.cookie='devicePixelRatio='+dpr+'; path=/'}})(window)</script>
+    <noscript><style id="devicePixelRatio" media="only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)">html{background-image:url("/retinaimages.php?devicePixelRatio=2")}</style></noscript>
+
+    <!-- Open graph meta tags -->
+    <meta property="og:title" content="[tbd] ([tbd]) by Hip Honk &middot; [tbd] by [tbd]" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://hiphonkandvisualartists.com/6736b77.html" />
+    <meta property="og:image" content="http://hiphonkandvisualartists.com/img/va/og/6736b77.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="HIP HONK AND VISUAL ARTISTS pairs musical creations by Henrik Lafrenz with visual creations by friendly artists. One song is paired with one work of art. This is [tbd] ([tbd]), paired with a [tbd] by [tbd]." />
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" href="css/nivo-lightbox.css" type="text/css" />
+    <link rel="stylesheet" href="themes/hank/hank.css" type="text/css" />
+    <script src="js/nivo-lightbox.min.js"></script>
+
+    <!-- My own js -->
+    <script src="js/lib.js"></script>
+
+    <!-- init js -->
+    <script>
+
+      // initialize lightbox
+      $(document).ready(function(){
+        $('a').nivoLightbox();
+      });
+
+      // links
+      $(document).ready(function() {
+        $("#nav-right-link").attr("href", "[tbd].html");
+        $("#nav-left-link").attr("href", "[tbd].html");
+      });
+
+      // fade in effect
+      $(document).ready(function(){$("body").hide().fadeIn(1000).delay(3000);});
+
+    </script>
+
+    <!-- My own styles -->
+    <link href="css/site.css" rel="stylesheet"></link>
+    <link href="css/6736b77.css" rel="stylesheet"></link>
+
+    <!-- Fonts from google -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,400italic" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div id="centering-outer">
+      <div id="centering-inner">
+
+        <!-- Headlines -->
+        <h1 class="proj-head"><a href="about.html">HIP HONK &amp; VISUAL ARTISTS<a></h1>
+        <h3>[tbd] ([tbd]) &middot; [tbd] by <a href="[tbd]" target="_blank">[tbd]</a></h3>
+
+        <!-- Image triptychon with lightbox link in the middle -->
+        <div class="img-tript-table">
+          <div class="img-tript-row">
+            <div class="img-tript-outer">
+              <a href="#" id="nav-right-link">
+                <div class="img-tript-nav-right"></div>
+              </a>
+            </div>
+            <div class="img-tript-inner">
+              <a href="img/va/[tbd].jpg" data-lightbox-hidpi="img/va/[tbd]@2x.jpg">
+                <img src="img/va/th/[tbd].jpg" srcset="img/va/th/[tbd].jpg 1x, img/va/th/[tbd]@2x.jpg 2x" width="[tbd]" height="[tbd]"></img>
+              </a>
+            </div>
+            <div class="img-tript-outer">
+              <a href="#" id="nav-left-link">
+              <div class="img-tript-nav-left"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Embedded bandcamp player, always needs width in px and display attribute -->
+        <div id="player-container">
+          [tbd]
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

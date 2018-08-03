@@ -40,4 +40,5 @@ var page_ids = [
     "2e0c8a4", // Ducktor
     "9fa329e", // U Go 2 My Head
     "ba075bd", // My Dubby Valentine
+    "6736b77", // Yknaps
 ]
