@@ -37,4 +37,5 @@ var page_ids = [
     "51b8c51", // Beau Ti Fool
     "357515c", // Nite And Day
     "6b115fc", // National Changes
+    "2e0c8a4", // Ducktor
 ]
