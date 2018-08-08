@@ -7,6 +7,10 @@
     display: inline-block;
 }
 
+body {
+    background: #a5a29d;
+}
+
 h1 {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
@@ -15,6 +19,7 @@ h1 {
 
 h1>a:hover, h1>a:visited, h1>a:link, h1>a:active {
     text-decoration: none;
+    color: #c3bfb8;
 }
 
 h1.proj-head {
@@ -26,6 +31,14 @@ h3 {
     font-style: italic;
     letter-spacing: 0.07em;
     margin-top: 5px;
+}
+
+h3, h3>a:hover, h3>a:visited, h3>a:link, h3>a:active {
+    color: #382d27;
+}
+
+.nivo-lightbox-theme-default.nivo-lightbox-overlay {
+    background: #3f3e3c;
 }
 
 #text {
