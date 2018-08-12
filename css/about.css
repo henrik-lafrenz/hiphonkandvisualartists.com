@@ -1,13 +1,13 @@
 body {
-    background: #eeeeee;
+    background: #c3bfb8;
 }
 
 h1, h1>a:hover, h1>a:visited, h1>a:link, h1>a:active {
-    color: #121212;
+    color: #382d27;
 }
 
 h3 {
-    color: #121212;
+    color: #382d27;
 }
 
 
@@ -18,5 +18,5 @@ p {
 }
 
 p, p>a:hover, p>a:visited, p>a:link, p>a:active {
-    color: #121212;
+    color: #382d27;
 }
