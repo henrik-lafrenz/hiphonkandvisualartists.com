@@ -33,4 +33,12 @@ var page_ids = [
     "a947c66", // Boogie Bonk
     "dfad4d5", // Circus 2013/14
     "bbc33b2", // Bottom Bump
+    "7e8e4d4", // Cheo Leo
+    "51b8c51", // Beau Ti Fool
+    "357515c", // Nite And Day
+    "6b115fc", // National Changes
+    "2e0c8a4", // Ducktor
+    "9fa329e", // U Go 2 My Head
+    "ba075bd", // My Dubby Valentine
+    "6736b77", // Yknaps
 ]
