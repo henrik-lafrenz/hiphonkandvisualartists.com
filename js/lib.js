@@ -25,20 +25,20 @@ function getRandomPageId() {
 }
 
 var page_ids = [
-    "b2e4200", // Braucht Kein Mensch Revisited
-    "c0bc194", // Gang Jump
-    "ea2060c", // De Boo, See?
-    "f4a2e2e", // Jazz On A Wednesday
-    "546d8f8", // I'll Remember Funky
-    "a947c66", // Boogie Bonk
-    "dfad4d5", // Circus 2013/14
-    "bbc33b2", // Bottom Bump
-    "7e8e4d4", // Cheo Leo
-    "51b8c51", // Beau Ti Fool
-    "357515c", // Nite And Day
-    "6b115fc", // National Changes
-    "2e0c8a4", // Ducktor
-    "9fa329e", // U Go 2 My Head
-    "ba075bd", // My Dubby Valentine
-    "6736b77", // Yknaps
+    "8d83", // Braucht Kein Mensch Revisited
+    "06ff", // Gang Jump
+    "4109", // De Boo, See?
+    "4f34", // Jazz On A Wednesday
+    "3032", // I'll Remember Funky
+    "81ed", // Boogie Bonk
+    "a79f", // Circus 2013/14
+    "8409", // Bottom Bump
+    "af55", // Cheo Leo
+    "1ef9", // Beau Ti Fool
+    "1057", // Nite And Day
+    "16ce", // National Changes
+    "3bdf", // Ducktor
+    "912a", // U Go 2 My Head
+    "da25", // My Dubby Valentine
+    "932b", // Yknaps
 ]
